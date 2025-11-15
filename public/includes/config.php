@@ -1,18 +1,39 @@
 <?php
 /**
- * Freshield Configuration File
+ * Freshield CMS - Configuration File
+ * Version: 1.0
+ * Build Date: November 15, 2025
  *
- * This file will contain database connection settings
- * and other configuration variables in Phase 2
- *
- * Phase 1: Empty placeholder
- * Phase 2: Will add database credentials and settings
+ * Production-ready configuration for Freshield.com
+ * All Phases (1-4) Complete
  */
+
+// ============================================================================
+// APPLICATION VERSION
+// ============================================================================
+
+define('APP_VERSION', 'v1.0');                           // Freshield CMS Version
+define('APP_BUILD_DATE', '2025-11-15');                  // Build date
+
+// ============================================================================
+// TIMEZONE CONFIGURATION
+// ============================================================================
+
+// Set default timezone to Seoul, South Korea
+date_default_timezone_set('Asia/Seoul');
+
+// ============================================================================
+// DIRECTORY PATHS
+// ============================================================================
 
 // Define base paths
 define('BASE_PATH', dirname(dirname(__DIR__)));
 define('PUBLIC_PATH', BASE_PATH . '/public');
 define('ASSETS_PATH', '/public/assets');
+
+// Upload and log directories
+define('UPLOAD_DIR', BASE_PATH . '/uploads');            // Upload directory
+define('LOG_DIR', BASE_PATH . '/logs');                  // Log directory
 
 // Language settings
 define('DEFAULT_LANG', 'ko');
@@ -33,8 +54,9 @@ define('DB_CHARSET', 'utf8mb4');
 // Options: 'local', 'development', 'staging', 'production'
 define('APP_ENV', 'local');
 
-// Paths
-define('LOG_PATH', BASE_PATH . '/logs');
+// Legacy path aliases (for backward compatibility)
+define('LOG_PATH', LOG_DIR);
+define('UPLOAD_PATH', UPLOAD_DIR);
 
 // Error handling and logging (based on environment)
 if (APP_ENV === 'production' || APP_ENV === 'staging') {
@@ -53,11 +75,11 @@ if (APP_ENV === 'production' || APP_ENV === 'staging') {
 
 // Application settings
 define('SITE_NAME', 'Freshield');
+define('SITE_NAME_KR', '후레쉴드');
 define('SITE_URL', APP_ENV === 'production' ? 'https://freshield.com' : 'http://localhost:8000');
 
-// Upload settings (for Phase 3)
-define('UPLOAD_PATH', BASE_PATH . '/uploads');
-define('MANUAL_UPLOAD_PATH', UPLOAD_PATH . '/manuals');
+// Upload settings
+define('MANUAL_UPLOAD_PATH', UPLOAD_DIR . '/manuals');
 define('MAX_UPLOAD_SIZE', 10485760); // 10MB in bytes
 
 // Pagination settings
