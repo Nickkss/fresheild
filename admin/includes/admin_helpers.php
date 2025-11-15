@@ -386,6 +386,13 @@ function getDashboardStats(): array
         $stmt = $pdo->query("SELECT COUNT(*) FROM admins");
         $admins = $stmt->fetchColumn();
 
+        // Inquiry counts
+        $stmt = $pdo->query("SELECT COUNT(*) FROM inquiries WHERE status='new'");
+        $inquiriesNew = $stmt->fetchColumn();
+
+        $stmt = $pdo->query("SELECT COUNT(*) FROM inquiries");
+        $inquiriesTotal = $stmt->fetchColumn();
+
         // Recent FAQs
         $stmt = $pdo->query("
             SELECT id, language, question, created_at
@@ -404,14 +411,26 @@ function getDashboardStats(): array
         ");
         $recentManuals = $stmt->fetchAll();
 
+        // Recent Inquiries
+        $stmt = $pdo->query("
+            SELECT id, name, email, product, message, status, created_at
+            FROM inquiries
+            ORDER BY created_at DESC
+            LIMIT 5
+        ");
+        $recentInquiries = $stmt->fetchAll();
+
         return [
             'faqs_ko' => $faqsKo,
             'faqs_en' => $faqsEn,
             'manuals_ko' => $manualsKo,
             'manuals_en' => $manualsEn,
             'admins' => $admins,
+            'inquiries_new' => $inquiriesNew,
+            'inquiries_total' => $inquiriesTotal,
             'recent_faqs' => $recentFaqs,
-            'recent_manuals' => $recentManuals
+            'recent_manuals' => $recentManuals,
+            'recent_inquiries' => $recentInquiries
         ];
     } catch (PDOException $e) {
         error_log('Dashboard stats error: ' . $e->getMessage());
@@ -421,8 +440,11 @@ function getDashboardStats(): array
             'manuals_ko' => 0,
             'manuals_en' => 0,
             'admins' => 0,
+            'inquiries_new' => 0,
+            'inquiries_total' => 0,
             'recent_faqs' => [],
-            'recent_manuals' => []
+            'recent_manuals' => [],
+            'recent_inquiries' => []
         ];
     }
 }

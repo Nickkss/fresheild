@@ -63,6 +63,8 @@ $isDevelopment = (!defined('APP_ENV') || APP_ENV === 'local' || APP_ENV === 'dev
 ?>
 
 <!-- CSS Stylesheets -->
+<?php if ($isDevelopment): ?>
+<!-- Development: Individual CSS Files -->
 <link href="/public/assets/css/_style.css" rel="stylesheet">
 <link href="/public/assets/css/style.css" rel="stylesheet">
 <link href="/public/assets/css/main_menu.css" rel="stylesheet">
@@ -76,11 +78,18 @@ $isDevelopment = (!defined('APP_ENV') || APP_ENV === 'local' || APP_ENV === 'dev
 <link href="/public/assets/css/sitemap.css" rel="stylesheet">
 <link href="/public/assets/css/tip.css" rel="stylesheet">
 <link href="/public/assets/css/FAQ.css" rel="stylesheet">
-<link href="/public/assets/css/freshield_menu.css" rel="stylesheet" type="text/css">
+<link href="/public/assets/css/freshield_menu.css" rel="stylesheet">
 <link href="/public/assets/css/intro_slide.css" rel="stylesheet">
-<link rel="stylesheet" href="/public/assets/css/photo.css" type="text/css">
-<link rel="stylesheet" type="text/css" href="/public/assets/css/ext-all.css">
-<link rel="stylesheet" type="text/css" href="/public/assets/css/common.css">
+<link href="/public/assets/css/photo.css" rel="stylesheet">
+<link href="/public/assets/css/ext-all.css" rel="stylesheet">
+<link href="/public/assets/css/common.css" rel="stylesheet">
+<?php else: ?>
+<!-- Production: Minified & Bundled CSS -->
+<link href="/public/assets/css/dist/layout.min.css" rel="stylesheet">
+<link href="/public/assets/css/dist/theme.min.css" rel="stylesheet">
+<link href="/public/assets/css/dist/components.min.css" rel="stylesheet">
+<link href="/public/assets/css/dist/vendor.min.css" rel="stylesheet">
+<?php endif; ?>
 
 <!--[if lt IE 9]>
 <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -93,11 +102,17 @@ $isDevelopment = (!defined('APP_ENV') || APP_ENV === 'local' || APP_ENV === 'dev
 <script src="/public/assets/js/jquery.min.js"></script>
 <script src="/public/assets/js/ext-jquery-adapter.js"></script>
 <script src="/public/assets/js/ext-all-3.js"></script>
+<script src="/public/assets/js/jquery.banner.js"></script>
+<?php if ($isDevelopment): ?>
+<!-- Development: Individual JS Files -->
 <script src="/public/assets/js/common.js"></script>
 <script src="/public/assets/js/active.js"></script>
 <script src="/public/assets/js/nav.js"></script>
 <script src="/public/assets/js/main_bn.js"></script>
-<script src="/public/assets/js/jquery.banner.js"></script>
+<?php else: ?>
+<!-- Production: Minified & Bundled JS -->
+<script src="/public/assets/js/dist/main.min.js"></script>
+<?php endif; ?>
 
 <script>
 // Language switcher utility

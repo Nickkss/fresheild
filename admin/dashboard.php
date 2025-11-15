@@ -84,6 +84,44 @@ include 'includes/admin_nav.php';
     </div>
 </div>
 
+<!-- Phase 4: Inquiry Statistics -->
+<div class="row">
+    <div class="col-xl-6 col-md-6 mb-4">
+        <div class="card stat-card danger">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-muted small mb-1">새 문의</div>
+                        <div class="h4 mb-0 font-weight-bold"><?php echo $stats['inquiries_new']; ?></div>
+                        <?php if ($stats['inquiries_new'] > 0): ?>
+                            <small class="text-danger"><i class="bi bi-bell-fill"></i> 확인 필요</small>
+                        <?php endif; ?>
+                    </div>
+                    <div class="text-danger">
+                        <i class="bi bi-envelope-exclamation fs-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xl-6 col-md-6 mb-4">
+        <div class="card stat-card secondary">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <div class="text-muted small mb-1">전체 문의</div>
+                        <div class="h4 mb-0 font-weight-bold"><?php echo $stats['inquiries_total']; ?></div>
+                    </div>
+                    <div class="text-secondary">
+                        <i class="bi bi-envelope-fill fs-2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <!-- Recent FAQs -->
     <div class="col-lg-6 mb-4">
@@ -151,6 +189,72 @@ include 'includes/admin_nav.php';
                                 </div>
                             </div>
                         <?php endforeach; ?>
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Phase 4: Recent Inquiries -->
+<div class="row">
+    <div class="col-12 mb-4">
+        <div class="card">
+            <div class="card-header d-flex justify-content-between align-items-center bg-primary text-white">
+                <span><i class="bi bi-envelope me-2"></i>최근 문의</span>
+                <a href="inquiry_list.php" class="btn btn-sm btn-light">전체보기</a>
+            </div>
+            <div class="card-body">
+                <?php if (empty($stats['recent_inquiries'])): ?>
+                    <p class="text-muted text-center py-4">접수된 문의가 없습니다.</p>
+                <?php else: ?>
+                    <div class="table-responsive">
+                        <table class="table table-hover mb-0">
+                            <thead class="table-light">
+                                <tr>
+                                    <th>이름</th>
+                                    <th>이메일</th>
+                                    <th>제품</th>
+                                    <th>메시지</th>
+                                    <th>상태</th>
+                                    <th>일시</th>
+                                    <th>작업</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php foreach ($stats['recent_inquiries'] as $inquiry): ?>
+                                    <tr class="<?php echo $inquiry['status'] === 'new' ? 'table-primary' : ''; ?>">
+                                        <td>
+                                            <strong><?php echo sanitizeOutput($inquiry['name']); ?></strong>
+                                            <?php if ($inquiry['status'] === 'new'): ?>
+                                                <span class="badge bg-danger ms-1">New</span>
+                                            <?php endif; ?>
+                                        </td>
+                                        <td><?php echo sanitizeOutput($inquiry['email']); ?></td>
+                                        <td><?php echo sanitizeOutput($inquiry['product'] ?? '-'); ?></td>
+                                        <td><?php echo sanitizeOutput(mb_substr($inquiry['message'], 0, 30)) . '...'; ?></td>
+                                        <td>
+                                            <?php
+                                            $badges = [
+                                                'new' => 'bg-info',
+                                                'read' => 'bg-warning',
+                                                'replied' => 'bg-success',
+                                                'archived' => 'bg-secondary'
+                                            ];
+                                            $badge = $badges[$inquiry['status']] ?? 'bg-secondary';
+                                            ?>
+                                            <span class="badge <?php echo $badge; ?>"><?php echo $inquiry['status']; ?></span>
+                                        </td>
+                                        <td><?php echo date('m/d H:i', strtotime($inquiry['created_at'])); ?></td>
+                                        <td>
+                                            <a href="inquiry_view.php?id=<?php echo $inquiry['id']; ?>" class="btn btn-sm btn-outline-primary">
+                                                <i class="bi bi-eye"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                <?php endforeach; ?>
+                            </tbody>
+                        </table>
                     </div>
                 <?php endif; ?>
             </div>
