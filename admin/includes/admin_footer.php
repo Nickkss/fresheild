@@ -51,5 +51,12 @@
     });
 </script>
 
+<!-- Admin Footer Version Info -->
+<footer class="admin-version-footer" style="position: fixed; bottom: 0; right: 0; padding: 8px 16px; background: rgba(255,255,255,0.95); border-top: 1px solid #e0e0e0; border-left: 1px solid #e0e0e0; border-top-left-radius: 8px; font-size: 11px; color: #666; z-index: 1000; box-shadow: -2px -2px 10px rgba(0,0,0,0.05);">
+    <span style="font-weight: 500; color: #333;">Freshield CMS</span>
+    <span style="color: #2c3e50;"><?php echo defined('APP_VERSION') ? APP_VERSION : 'v1.0'; ?></span>
+    <span style="color: #999;">— Built 2025</span>
+</footer>
+
 </body>
 </html>

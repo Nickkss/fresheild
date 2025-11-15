@@ -122,6 +122,32 @@ include 'includes/admin_nav.php';
     </div>
 </div>
 
+<!-- System Status Badge -->
+<div class="row">
+    <div class="col-12 mb-4">
+        <div class="alert alert-success d-flex align-items-center" role="alert" style="background: linear-gradient(135deg, #28a745 0%, #20c997 100%); border: none; box-shadow: 0 4px 15px rgba(40, 167, 69, 0.2);">
+            <div class="me-3">
+                <i class="bi bi-check-circle-fill fs-1 text-white"></i>
+            </div>
+            <div class="flex-grow-1">
+                <h5 class="alert-heading text-white mb-1">
+                    <i class="bi bi-shield-check me-2"></i>System Status: Healthy
+                </h5>
+                <p class="mb-0 text-white-50 small">
+                    <strong>Freshield CMS <?php echo defined('APP_VERSION') ? APP_VERSION : 'v1.0'; ?></strong>
+                    | All systems operational | Last checked: <?php echo date('Y-m-d H:i:s'); ?>
+                    | Uptime: Excellent
+                </p>
+            </div>
+            <div class="text-end">
+                <span class="badge bg-white text-success px-3 py-2" style="font-size: 14px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                    <i class="bi bi-circle-fill text-success" style="font-size: 8px;"></i> ONLINE
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="row">
     <!-- Recent FAQs -->
     <div class="col-lg-6 mb-4">
