@@ -1,0 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(../../../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+ul li {
+    list-style-type: none;
+}
+
+.slides-box {
+    width: 100%;
+	height:528px;
+	margin: 0 auto;
+    overflow: hidden;
+}
+.slides {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    float: left;
+}
+.slides li {
+	position: absolute;
+    width:  100%;
+    height: 100%;
+	margin: 0 auto;
+}
+.slides li img{
+	display: block;
+	width: 100%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-bottom: 0;
+}
+
+
+
+
+/*이미지 슬라이드 이전,다음장 선택 화살표
+.next {
+    position: absolute;
+    z-index: 99;
+    top: 370px;
+    margin-top: -40px;
+    right: 20px;
+    height: 70px;
+    width: 49px;
+    color: #fff;
+    cursor: pointer;
+}
+.prev:hover, .next:hover{
+	opacity: .7;
+}*/
+/*이미지 슬라이드 이전장 화살표*/
+/*.prev{
+	background-image: url("/shop/data/images/main_prev_btn.png");
+}
+/*이미지 슬라이드 다음장 화살표*/
+/*.next {
+    background-image: url("/shop/data/images/main_next_btn.png");
+}*/
+
+/*버튼설정 영역*/
+.pagination{
+	position: absolute;
+	top: 625px;/*버튼 위치*/
+	z-index: 99;
+	height:30px;
+	list-style:none;
+	font-size:0;/*버튼 위 숫자사이즈*/
+}
+
+.pagination li{
+    padding: 0px 7px;/*버튼 사이간격*/
+	float: left;
+	list-style:none;
+}
+.pagination li a{
+	list-style:none;
+	display: block;
+    width: 12px;/*버튼 넓이*/
+    height: 12px;/*버튼 높이*/
+    line-height: 16px; /*버튼 행간(높이)*/
+    border-radius: 20%; /*버튼 모서리(px이 높을수록 동그라미)*/
+    background:#cccccc; /*버튼 기본배경*/
+	color: #fff; /*버튼 글씨색상*/
+    text-align: center;/*버튼 글씨정렬*/
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;/*버튼 글씨체*/
+	text-decoration: none;
+}
+/* 버튼색상 : 현재페이지*/
+.pagination .active{
+	background: #7CAC81;
+}	
+/* 슬라이드 배경영역 */
+* {margin:0; padding:0;}
+.section_01 {background:url(../images/main_back01.jpg) repeat-x;}
+.section_02	{background:url(../images/main_back02.jpg) repeat-x;}
+.section_03 {background:url(../images/main_back03.jpg) repeat-x;}
+.section_04 {background:url(../images/main_back04.jpg) repeat-x;}
+/* 슬라이드 이미지영역*/
+.main_bn_con {width:980px; height:528px; margin:0 auto;}
+.main_bn_con h3 { margin:0 auto;}
+.main_bn_con p {position:absolute; right:0; bottom:40px;}

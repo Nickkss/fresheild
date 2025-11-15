@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(../../../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family:Nanum Gothic;
+}
+
+#freshield_nav { font-size: 62.5%; line-height: 1; padding-bottom: 65px; font-family: Arial, Tahoma, sans-serif;}
+
+ol, ul { list-style: none; }
+
+
+img { border: 0; max-width: 100%; }
+
+
+
+
+
+/* nav menu styles */
+#nav { 
+  display: block; 
+  width: 308px; 
+  margin: 0 auto; 
+  box-shadow: 0px 0px 0px rgba(0,0,0,0.2);
+  text-align:center;
+}
+
+#nav li { }
+
+#nav > li > a { 
+  display: block; 
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #7d6753;
+  background-color: #Fff;   /*기본색상*/
+  border:1px solid #937c67;
+  line-height:60px;
+}
+#nav > li > a:hover, #nav > li > a.open { 
+  color: #fff;
+  border-bottom:1px solid;
+  background-color:#937c67; /*마우스 올렸을때,열렸을때 배경색*/
+  border-bottom-color: #7d6753; /*마우스 올렸을때,열렸을때 밑라인*/
+  border-left:1px solid #937c67;
+  border-right:1px solid #937c67;
+
+}
+
+#nav li ul { display: none; background: #fff; } /*소메뉴 배경*/
+
+#nav li ul li a { 
+  display: block; 
+  background: none;
+  padding: 10px 0px;
+   font-size: 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #775638;/*소메뉴 폰트색*/
+  border-bottom:1px solid #f3f3f3;
+  border-left:1px solid #937c67;
+  border-right:1px solid #937c67;
+
+}
+
+#nav1 { 
+  display: block; 
+  background:#d0c3b8;
+  padding: 12px 0px;
+  font-size: 1.5em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #291e14;
+  /*text-shadow: 1px 01px 0px #ccc;*/
+  
+  border-left:1px solid #937c67;
+  border-right:1px solid #937c67;
+}
+
+#nav li ul li a:hover {
+  background: #f3eeea;/*소메뉴 마우스올렸을때 배경*/
+  color:#000;
+  font-weight:bold;
+  font-size:1.5em;
+}
+

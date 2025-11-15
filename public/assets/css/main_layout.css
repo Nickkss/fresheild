@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(../../../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/* bottom menu 영역 */
+
+#bottom{
+	width:100%;
+	margin:0 auto;
+	height:337px;
+}
+
+#bottom #bottom_menu {
+	margin: 10px auto;
+	width: 956px;
+	height: 328px;
+}
+
+#bottom #bottom_menu #b_line1 {
+	background-color:#cccccc;
+	width:1px;
+	height:317px;
+	float:left;
+	
+	
+}
+
+#bottom #bottom_menu #b_menu1 { 
+	width:288px;
+	height:317px;
+	float:left;
+}
+
+#bottom #bottom_menu #b_menu1 #as {
+	width: 288px;
+	height: 150px;
+}
+
+#bottom #bottom_menu #b_menu1 #as #as_title {
+	width: 268px;
+	height: 150px;
+	margin: 30px auto auto 15px;
+}
+
+#bottom #bottom_menu #b_menu1 #as #as_title_EN {
+	width: 268px;
+	height: 150px;
+	margin: 30px auto auto 0px;
+}
+
+#bottom #bottom_menu #b_menu1 #bt {
+	margin:0; 
+	width:288px;
+	height:136px;
+}
+
+#bottom #bottom_menu #b_menu1 #bt #bt_1 {
+	width: 95px;
+	height: 136px;
+	margin: auto;
+	float: left;
+}
+
+
+#bottom #bottom_menu #b_menu1 #b_line2 {
+	width:288px;
+	background-color:#cccccc;
+	height:1px; 
+}
+
+#bottom #bottom_menu #b_menu1 #bt #b_line3 {
+	width:1px;
+	height:100%;
+	background-color:#cccccc;
+	float:left;
+}
+
+
+#bottom #bottom_menu #b_menu2 {
+	width:332px;
+	height:317px; 
+	float:left;
+}
+
+#bottom #bottom_menu #b_menu2 #product {
+	margin:30px auto auto 15px;
+	width:300px;
+	height:85%;
+	float:left;
+}
+
+#bottom #bottom_menu #b_menu2 #product #product_img {
+	font-family: "나눔고딕";
+	font-size: 12px;
+	letter-spacing: 2px;
+	line-height: 20px;
+}
+
+#Main_product {
+	float:left;
+}
+
+#bt{
+	float:right;
+	margin:8px auto 0 0;
+}
+
+
+/* footer 영역 */
+
+#footer {
+	height: 115px;
+	width: 100%;
+	margin: 0 auto;
+	background:#fff;
+}
+
+#footer #footer_line {
+	height:1px;
+	width:100%;
+	background-color:#cccccc;
+}
+
+#footer #footer_box {
+	width: 956px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+}
+
+#footer #footer_box #footer_info {
+	height: 100%;
+	width: 648px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	float: left;
+	font-style: none;
+	display: inline-block;
+	line-height: 20px;
+	color: #8e8f92;
+	font-size: 11px;
+}
+
+
+#footer #footer_box #footer_btn {
+	height: 100%;
+	width: 288px;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: auto;
+}
+
+#top_btn {
+	width: 400px;
+	height: auto;
+	float: right;
+	font-family: Nanum Gothic, sans-serif;
+	margin-top: 8px;
+}
+
+#top_btn a {
+	color: #7A7A7A;
+	float:right;	
+}
+
+#top_btn a:hover {
+	color:#20A6B7;
+}
+
+
+.copy {
+	color: #A0A0A0;
+	font-size:10px;
+	font-family:Nanum Gothic, sans-serif;
+	margin-top:10px;
+	float:left;
+}
+
+#adress {
+	 font-style:normal; 
+	 text-align:right;
+	 font-family:Nanum Gothic, sans-serif;
+}
+
+#bottom_line {
+	width:1px;
+	height:10px;
+	background:#ccc;
+	float:right;
+	margin-right:15px;
+	margin-left:15px;
+	margin-top:4px;
+}
+
+.main_btn {
+	margin:26px auto auto 15px;
+}
+
+.btn_delonghi {
+	margin:0 0 auto auto;
+	float:right;
+}
+
+.product {
+	margin-top: 18px;
+	margin-bottom: 5px;
+}
+
+.main_text {
+	width:300px;
+	height:100%;
+	margin:0 auto;
+	float:left;
+	text-align:left;
+	letter-spacing:1px;
+	color:#3A3A3A;
+}
+
+.main_line {
+	width:100%;
+	height:1px;
+	background:#DCDCDC;
+
+}
+
+
+.aabbcc
+{ width:860px;
+}
+
+@media (min-width: 980px) and (max-width: 2000px){
+}

@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(../../../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    height: 100%;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+ul li {
+    list-style-type: none;
+}
+
+#INTRO{
+	background:url(../images/intro_img_bg.jpg) repeat-x;
+	height:900px;
+	width:100%;
+	margin:0 auto;
+	float:left;
+}
+
+
+#INTRO_LOGO{
+	height:116px;
+	width:980px;
+	margin:0 auto;
+}
+
+#intro_logo_img{
+	width:253px;
+	margin:0 auto;
+	padding-top:40px;	
+}
+
+#INTRO_IMG_BOX{
+	height:666px;
+	width:980px;
+	margin:0 auto;
+}
+
+#INTRO_IMG{
+	width:980px;
+	margin:0 auto;
+}
+
+#INTRO_BTN{
+	width:980px;
+	height:45px;
+	margin:0 auto;
+}
+
+#btn_box{
+	width:410px;
+	margin:0 auto;
+}
+
+#btn_box li {
+	float:left;
+}
+
+#BTN_IMG{
+	width:200px;
+	height:100%;
+	float:left;
+}
+
+.intro_line{
+	width:2px;
+	height:22px;
+	margin-top:12px;
+	float:left;
+	background:#cccccc;
+}

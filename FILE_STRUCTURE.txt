@@ -1,0 +1,186 @@
+FRESHIELD.COM - COMPLETE FILE STRUCTURE
+========================================
+
+ROOT LEVEL (New PHP Entry Points)
+----------------------------------
+├── index.php                           ← Korean Homepage Entry
+├── en_index.php                        ← English Homepage Entry
+├── PHASE1_COMPLETION_REPORT.md         ← Full Project Documentation
+├── QUICK_START_GUIDE.md                ← Quick Reference Guide
+└── FILE_STRUCTURE.txt                  ← This File
+
+PUBLIC FOLDER (New PHP Structure)
+----------------------------------
+public/
+├── assets/
+│   ├── css/                            ← All CSS Files (15+ files)
+│   │   ├── _style.css
+│   │   ├── style.css
+│   │   ├── main_menu.css
+│   │   ├── main_layout.css
+│   │   ├── main_slide.css
+│   │   ├── brandstory.css
+│   │   ├── sub_menu.css
+│   │   ├── product.css
+│   │   ├── manual.css
+│   │   ├── b2b.css
+│   │   ├── sitemap.css
+│   │   ├── tip.css
+│   │   ├── FAQ.css
+│   │   ├── freshield_menu.css
+│   │   ├── intro_slide.css
+│   │   ├── photo.css
+│   │   ├── ext-all.css
+│   │   └── common.css
+│   │
+│   ├── js/                             ← All JavaScript Files (12+ files)
+│   │   ├── jquery.js
+│   │   ├── jquery-1.7.2.min.js
+│   │   ├── jquery.min.js
+│   │   ├── main_bn.js
+│   │   ├── nav.js
+│   │   ├── active.js
+│   │   ├── jquery.banner.js
+│   │   ├── ext-jquery-adapter.js
+│   │   ├── ext-all-3.js
+│   │   └── common.js
+│   │
+│   └── images/                         ← All Images (200+ files)
+│       ├── top_logo.png
+│       ├── main_img1.png
+│       ├── main_img2.png
+│       ├── main_img3.png
+│       ├── main_img4.png
+│       ├── advance_*.jpg/png
+│       ├── elite_*.jpg/png
+│       ├── genisys_*.jpg/png
+│       ├── outdoor_*.jpg/png
+│       ├── rollbag_*.jpg/png
+│       ├── handpump_*.jpg/png
+│       ├── btn_*.jpg
+│       ├── b_menu*.png
+│       ├── product_img*.jpg
+│       ├── as_img*.jpg
+│       └── ... (200+ more files)
+│
+├── includes/                           ← Core PHP Components
+│   ├── header.php                      ← Universal Header
+│   ├── footer.php                      ← Universal Footer
+│   └── config.php                      ← Configuration File
+│
+└── pages/                              ← All Page Templates (30 files)
+    │
+    ├── HOME PAGES (2)
+    │   ├── home.php                    ← Korean Homepage Content
+    │   └── home_en.php                 ← English Homepage Content
+    │
+    ├── BRAND PAGES (3)
+    │   ├── brandstory.php              ← Korean Brand Story
+    │   ├── brandstory_en.php           ← English Brand Story
+    │   └── certification.php           ← Certification Page
+    │
+    ├── PRODUCT PAGES - KOREAN (8)
+    │   ├── product_freshield.php       ← Product Overview
+    │   ├── product_outdoor1.php        ← Outdoor Product 1
+    │   ├── product_outdoor2.php        ← Outdoor Product 2
+    │   ├── product_advance.php         ← Advance Model
+    │   ├── product_elite.php           ← Elite Model
+    │   ├── product_genisys.php         ← Genisys Canister
+    │   ├── product_handpump.php        ← Hand Pump
+    │   └── product_rollbag.php         ← Rolls & Bags
+    │
+    ├── PRODUCT PAGES - ENGLISH (8)
+    │   ├── product_freshield_en.php
+    │   ├── product_outdoor1_en.php
+    │   ├── product_outdoor2_en.php
+    │   ├── product_advance_en.php
+    │   ├── product_elite_en.php
+    │   ├── product_genisys_en.php
+    │   ├── product_handpump_en.php
+    │   └── product_rollbag_en.php
+    │
+    ├── SUPPORT PAGES (4)
+    │   ├── faq.php                     ← Korean FAQ
+    │   ├── faq_en.php                  ← English FAQ
+    │   ├── manual.php                  ← Korean Manual/Downloads
+    │   └── manual_en.php               ← English Manual/Downloads
+    │
+    └── OTHER PAGES (5)
+        ├── business.php                ← B2B Page
+        ├── tip.php                     ← Korean Tips
+        ├── tip_en.php                  ← English Tips
+        ├── sitemap.php                 ← Korean Sitemap
+        └── sitemap_en.php              ← English Sitemap
+
+ORIGINAL MIRROR (Preserved for Reference)
+------------------------------------------
+├── admin/                              ← Original Admin Folder
+├── board/                              ← Original Board Pages
+│   ├── FAQ.html
+│   ├── EN_FAQ.html
+│   ├── manual.html
+│   └── EN_manual.html
+├── business/                           ← Original Business Pages
+│   └── b2b.html
+├── introduction/                       ← Original Introduction Pages
+│   ├── brandstory.html
+│   ├── EN_brandstory.html
+│   └── certification.html
+├── lib/                                ← Original Library Folders
+├── product/                            ← Original Product Pages
+│   ├── freshield.html
+│   ├── EN_freshield.html
+│   ├── 1outdoor.html
+│   ├── EN_1outdoor.html
+│   ├── 2outdoor.html
+│   ├── EN_2outdoor.html
+│   ├── 3advance.html
+│   ├── EN_3advance.html
+│   ├── 4elite.html
+│   ├── EN_4elite.html
+│   ├── 5genisys.html
+│   ├── EN_5genisys.html
+│   ├── 6handpump.html
+│   ├── EN_6handpump.html
+│   ├── 7rollbag.html
+│   └── EN_7rollbag.html
+├── sitemap/                            ← Original Sitemap Pages
+│   ├── sitemap.html
+│   └── EN_sitemap.html
+├── skin/                               ← Original Skin/Assets Folder
+│   └── default/
+│       ├── images/
+│       ├── _images/
+│       ├── css/
+│       ├── _css/
+│       ├── js/
+│       └── _js/
+├── tip/                                ← Original Tips Pages
+│   ├── tip.html
+│   └── EN_tip.html
+├── index.html                          ← Original Korean Homepage
+├── EN_main.html                        ← Original English Homepage
+└── EN_main-2.html                      ← Original English Homepage (Variant)
+
+SUMMARY
+-------
+Total New Files Created: 35 PHP files
+  - 2 Root entry points (index.php, en_index.php)
+  - 3 Core components (header, footer, config)
+  - 30 Page templates
+
+Total Assets Migrated: 227+ files
+  - 15+ CSS files
+  - 12+ JavaScript files
+  - 200+ Image files
+
+Total Documentation: 3 files
+  - PHASE1_COMPLETION_REPORT.md
+  - QUICK_START_GUIDE.md
+  - FILE_STRUCTURE.txt
+
+Status: ✅ PHASE 1 COMPLETE
+Visual Fidelity: 100% Maintained
+Ready for: Phase 2 (Database + Admin Panel)
+
+Generated: November 15, 2025

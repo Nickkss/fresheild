@@ -1,0 +1,28 @@
+# Freshield.com Robots.txt
+# Updated: November 15, 2025
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /database/
+Disallow: /uploads/
+
+# Disallow sensitive files
+Disallow: /*.sql$
+Disallow: /*.log$
+Disallow: /*config.php$
+Disallow: /*db.php$
+
+# Allow CSS and JS for Google
+Allow: /public/assets/css/
+Allow: /public/assets/js/
+Allow: /public/assets/images/
+
+# Sitemap location
+Sitemap: https://freshield.com/sitemap.xml
+
+# Crawl-delay for bots (optional)
+# Crawl-delay: 10

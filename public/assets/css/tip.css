@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#TIP{ width:100%; margin:0 auto; height:83%; background:url(../images/tip_BGimg.jpg) repeat-x;}
+#TIP_BOX{ width:980px; height:100%; margin:0 auto;}
+#TIP_Title{ margin:0 auto; float:left;}
+#TIP_BTNBOX{ height:400px; margin:0 auto; width:100%; float:left;}
+.tip_btn1{ margin-top:10px; background:#fff; width:438px; height:515px; margin-left:45px; float:left;}
+.tip_btn2{ margin-top:10px; background:#fff; width:438px; height:515px; margin-left:15px ; float:left;}
+
+a {
+	color:#595959;
+}
+
+a:hover {
+	color:#222222;
+}
+
+
+
+
+/* TOP01 IMG 영역*/
+#TIP01 {
+	width:100%;
+	margin:0 auto;
+	height:414px;
+	background:url(../images/TIP01_titleBG.jpg) repeat-x;
+
+}
+
+#tip01_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/* TIP_INFO 영역 */
+	
+#TIP01_INFO {
+	width:100%;
+	margin:0 auto;
+	background:url(../images/TIP01_infoBG.jpg) repeat-x;
+}
+
+
+
+	/*INFO1*/
+
+#tip01_info {
+	width:980px;
+	height:2216px;
+	margin:0 auto;
+}
+
+
+#tip01_img {
+	width:100%;
+	height:2216px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+/* TOP02 IMG 영역*/
+
+#TIP02 {
+	width:100%;
+	margin:0 auto;
+	height:326px;
+	background:url(../images/TIP02_titleBG.jpg) repeat-x;
+
+}
+
+#tip02_top {
+	width:980px;
+	margin:0 auto;
+}
+	
+/* TIP_INFO 영역 */
+	
+#TIP02_INFO {
+	width:100%;
+	margin:0 auto;
+	background:url(../images/TIP02_infoBG.jpg) repeat-x;
+}
+
+
+
+	/*INFO1*/
+
+#tip02_info {
+	width:980px;
+	height:1802px;
+	margin:0 auto;
+}
+
+
+

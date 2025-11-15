@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(../../../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+a {
+	color:#595959;
+}
+
+a:hover {
+	color:#222222;
+}
+
+
+
+
+#B2B_IMG{
+	width:100%;
+	margin:0 auto;
+	height:287px;
+	background:url(../images/B2B_bg.jpg) repeat-x;
+
+}
+
+#B2B {
+	width:980px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+/* MENUAL 영역 시작 */
+
+#b2b_board {
+	background:url(../images/manual_info1.jpg) repeat-x;
+	width:100%;
+	margin:0 auto;
+}
+
+#b2b_container {
+	width:980px;
+	height:100%;
+	margin:0 auto;
+}
+
+#b2b_title {
+	width:180px;
+	padding-top:50px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:20px;
+	color:#ed4c57;
+	text-align:left;
+	margin:0 auto 0 60px;
+}
+
+#b2b_area {
+	width:860px;
+	padding-top:30px;
+	padding-bottom:100px;
+	margin:0 auto;
+	height:100%;
+}
+
+

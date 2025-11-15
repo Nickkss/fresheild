@@ -1,0 +1,1751 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(../../../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+a {
+	color:#595959;
+}
+
+a:hover {
+	color:#222222;
+}
+
+
+
+
+/* product1_아웃도어(국내향) */
+
+/* TOP IMG 영역*/
+#OUTDOOR1 {
+	width:100%;
+	margin:0 auto;
+	height:470px;
+	background:url(../images/outdoor1_bg.jpg) repeat-x ;
+
+}
+
+#outdoor1_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/* OUTDOOR1_INFO 영역 */
+	
+#OUTDOOR1_INFO {
+	width:100%;
+	margin:0 auto;
+}
+
+
+	/*INFO1*/
+
+#outdoor1_info1 {
+	width:100%;
+	height:705px;
+	background:url(../images/outdoor1_info1.jpg) repeat;
+	margin:0 auto;
+}
+
+.info1_outdoor1 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo1_outdoor1 {
+	width:100%;
+	margin-top:89px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:rgba(95,73,15,0.90);
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO2*/
+
+#outdoor1_info2 {
+	width:100%;
+	height:642px;
+	margin:0 auto;
+	background:url(../images/outdoor1_info2.jpg) repeat;
+}
+
+.info2_outdoor1 {
+	width:980px;
+	height:642px;
+	margin:0 auto;
+}
+
+.Tinfo2_outdoor1 {
+	width:100%;
+	margin-top:100px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:24px;
+	text-align:center;
+	color:#4e5210;
+	letter-spacing:1px;
+	float:left;
+}
+
+.Textinfo2_outdoor1 {
+	width:840px;
+	height:100px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:16px;
+	color:#585941;
+	letter-spacing:1px;
+	margin:0 auto;
+	line-height:20pt;
+	text-align:left;
+}
+
+
+	/*INFO3*/
+
+#outdoor1_info3 {
+	width:100%;
+	height:740px;
+	background:url(../images/outdoor1_info3.jpg) repeat;
+	margin:0 auto;
+}
+
+.info3_outdoor1 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo3_outdoor1 {
+	width:100%;
+	margin-top:100px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#278774;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO4*/
+
+#outdoor1_info4 {
+	width:100%;
+	height:1328px;
+	background:url(../images/outdoor1_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+.info4_outdoor1 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo4_outdoor1 {
+	width:100%;
+	margin-top:85px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#425165;
+	letter-spacing:1px;
+	float:left;
+}
+
+/*EN_INFO4*/
+
+#EN_outdoor1_info4 {
+	width:100%;
+	height:1399px;
+	background:url(../images/EN_outdoor1_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+
+
+	/*INFO5*/
+
+#outdoor1_info5 {
+	width:100%;
+	height:832px;
+	background:url(../images/outdoor1_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+.info5_outdoor1 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo5_outdoor1 {
+	width:100%;
+	margin-top:95px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#8e4e69;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO6*/
+
+#outdoor1_info6 {
+	width:100%;
+	height:526px;
+	background:url(../images/outdoor1_info6.jpg) repeat;
+	margin:0 auto;
+}
+
+.info6_outdoor1 {
+	width:980px;
+	margin:0 auto;
+}
+
+.spec_title{border-right:#ccc 1px solid; border-bottom:#ccc 1px solid; height:32px; width:160px; line-height:32px; font-family:Dotum; font-size:13px; font-weight:bold; float:left; padding-left:12px; color:#676767; text-align:left;}
+.sepc_text{border-bottom:#ccc 1px solid; height:32px; width:230px; line-height:32px; font-family:Dotum; font-size:13px; float:left; padding-left:12px; text-align:left;}
+
+
+
+
+
+
+
+/* product2_아웃도어(수출향) 1-2 */
+
+/* TOP IMG 영역*/
+#OUTDOOR2 {
+	width:100%;
+	margin:0 auto;
+	height:470px;
+	background:url(../images/outdoor2_bg.jpg) repeat-x;
+
+}
+
+#outdoor2_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/* OUTDOOR2_INFO 영역 */
+	
+#OUTDOOR2_INFO {
+	width:100%;
+	margin:0 auto;
+}
+
+
+	/*INFO1*/
+
+#outdoor2_info1 {
+	width:100%;
+	height:676px;
+	background:url(../images/outdoor2_info1.jpg) repeat;
+	margin:0 auto;
+}
+
+.info1_outdoor2 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo1_outdoor2 {
+	width:100%;
+	margin-top:89px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#4A6562;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO2*/
+
+#outdoor2_info2 {
+	width:100%;
+	height:642px;
+	background:url(../images/outdoor2_info2.jpg) repeat;
+	margin:0 auto;
+}
+
+.info2_outdoor2 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo2_outdoor2 {
+	width:100%;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:24px;
+	text-align:center;
+	color:#4A6562;
+	letter-spacing:1px;
+	float:left;
+	margin: 100px auto auto auto;
+
+}
+
+.Textinfo2_outdoor2 {
+	width:830px;
+	height:100px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:15px;
+	color:#4e5210;
+	letter-spacing:1px;
+	margin:0 auto;
+	line-height:20pt;
+	text-align:left;
+}
+
+
+	/*INFO3*/
+
+#outdoor2_info3 {
+	width:100%;
+	height:740px;
+	background:url(../images/outdoor2_info3.jpg) repeat;
+	margin:0 auto;
+}
+
+.info3_outdoor2 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo3_outdoor2 {
+	width:100%;
+	margin-top:100px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#278774;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO4*/
+
+#outdoor2_info4 {
+	width:100%;
+	height:462px;
+	background:url(../images/outdoor2_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+.info4_outdoor2 {
+	width:980px;
+	margin:0 auto;
+}
+
+
+	/*INFO5*/
+
+#outdoor2_info5 {
+	width:100%;
+	height:1327px;
+	background:url(../images/outdoor2_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+.info5_outdoor2 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo5_outdoor2 {
+	width:100%;
+	margin-top:85px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#425165;
+	letter-spacing:1px;
+	float:left;
+}
+
+/*EN_INFO5*/
+
+#EN_outdoor2_info5 {
+	width:100%;
+	height:1399px;
+	background:url(../images/EN_outdoor2_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+
+	/*INFO6*/
+	
+#outdoor2_info6 {
+	width:100%;
+	height:832px;
+	background:url(../images/outdoor2_info6.jpg) repeat;
+	margin:0 auto;
+}
+
+.info6_outdoor2 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo6_outdoor2 {
+	width:100%;
+	margin-top:95px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#1d4c7b;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+
+	/*INFO7*/
+	
+#outdoor2_info7 {
+	width:100%;
+	height:832px;
+	background:url(../images/outdoor2_info7.jpg) repeat;
+	margin:0 auto;
+}
+
+
+
+
+.info7_outdoor2 {
+	width:980px;
+	margin:0 auto;
+}
+
+.EN_info7_outdoor2{ 
+	height:516px; 
+	background:#BBB5B5; 
+	float:left; 
+	width:100%;
+	margin:0 auto;
+	 }
+
+/*INFO8*/
+	
+#outdoor2_info8 {
+	width:100%;
+	height:516px;
+	background:url(../images/outdoor2_info8.jpg) repeat;
+	margin:0 auto;
+}
+
+
+
+
+.info8_outdoor2 {
+	width:980px;
+	margin:0 auto;
+}
+
+.EN_info8_outdoor2{ 
+	height:516px; 
+	background:#BBB5B5; 
+	float:left; 
+	width:100%;
+	margin:0 auto;
+	 }
+
+
+
+
+
+/* product3_어드벤스 1-2 */
+
+/* TOP IMG 영역*/
+#ADVANCE {
+	width:100%;
+	margin:0 auto;
+	height:470px;
+	background:url(../images/advance_bg.jpg) repeat-x;
+
+}
+
+#advance_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/* OUTDOOR2_INFO 영역 */
+	
+#ADVANCE_INFO {
+	width:100%;
+	margin:0 auto;
+}
+
+
+	/*INFO1*/
+
+#advance_info1 {
+	width:100%;
+	height:678px;
+	background:url(../images/advance_info1.jpg) repeat;
+	margin:0 auto;
+}
+
+.info1_advance {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo1_advance {
+	width:100%;
+	margin-top:90px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#2f563b;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO2*/
+
+#advance_info2 {
+	width:100%;
+	height:461px;
+	background:url(../images/advance_info2.jpg) repeat;
+	margin:0 auto;
+}
+
+.info2_advance {
+	width:980px;
+	margin:0 auto;
+}
+
+
+	/*INFO3*/
+
+#advance_info3 {
+	width:100%;
+	height:741px;
+	background:url(../images/advance_info3.jpg) repeat;
+	margin:0 auto;
+}
+
+.info3_advance {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo3_advance {
+	width:100%;
+	margin-top:101px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#30549e;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO4*/
+
+#advance_info4 {
+	width:100%;
+	height:1327px;
+	background:url(../images/advance_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+
+
+.info4_advance {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo4_advance {
+	width:100%;
+	margin-top:85px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#30549e;
+	letter-spacing:1px;
+	float:left;
+}
+
+	/*EN_INFO4*/
+
+#EN_advance_info4 {
+	width:100%;
+	height:1399px;
+	background:url(../images/EN_advance_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+	/*INFO5*/
+
+#advance_info5 {
+	width:100%;
+	height:834px;
+	background:url(../images/advance_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+.info5_advance {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo5_advance {
+	width:100%;
+	margin-top:96px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#396568;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO6*/
+
+#advance_info6 {
+	width:100%;
+	height:524px;
+	background:url(../images/advance_info6.jpg) repeat;
+	margin:0 auto;
+}
+
+.info6_advance {
+	width:980px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+/* product4_엘리트 1-2 */
+
+/* TOP IMG 영역*/
+#ELITE {
+	width:100%;
+	margin:0 auto;
+	height:470px;
+	background:url(../images/elite_bg.jpg) repeat-x;
+
+}
+
+#elite_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/* OUTDOOR2_INFO 영역 */
+	
+#ELITE_INFO {
+	width:100%;
+	margin:0 auto;
+}
+
+
+	/*INFO1*/
+
+#elite_info1 {
+	width:100%;
+	height:678px;
+	background:url(../images/elite_info1.jpg) repeat;
+	margin:0 auto;
+}
+
+.info1_elite {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo1_elite {
+	width:100%;
+	margin-top:91px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#6c4c75;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO2*/
+
+#elite_info2 {
+	width:100%;
+	height:739px;
+	background:url(../images/elite_info2.jpg) repeat;
+	margin:0 auto;
+}
+
+.info2_elite {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo2_elite {
+	width:100%;
+	margin-top:101px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#30549e;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO3*/
+
+#elite_info3 {
+	width:100%;
+	height:1328px;
+	background:url(../images/elite_info3.jpg) repeat;
+	margin:0 auto;
+}
+
+.info3_elite {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo3_elite {
+	width:100%;
+	margin-top:85px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#425165;
+	letter-spacing:1px;
+	float:left;
+}
+
+/*EN_INFO3*/
+
+#EN_elite_info3 {
+	width:100%;
+	height:1399px;
+	background:url(../images/EN_elite_info3.jpg) repeat;
+	margin:0 auto;
+}
+	/*INFO4*/
+
+#elite_info4 {
+	width:100%;
+	height:833px;
+	background:url(../images/elite_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+.info4_elite {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo4_elite {
+	width:100%;
+	margin-top:96px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#8d6400;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO5*/
+
+#elite_info5 {
+	width:100%;
+	height:527px;
+	background:url(../images/elite_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+.info5_elite {
+	width:980px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+/* product5_제니시스 */
+
+/* TOP IMG 영역*/
+#GENISYS {
+	width:100%;
+	margin:0 auto;
+	height:470px;
+	background:url(../images/genisys_bg.jpg) repeat-x;
+
+}
+
+#genisys_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/* OUTDOOR2_INFO 영역 */
+	
+#GENISYS_INFO {
+	width:100%;
+	margin:0 auto;
+}
+
+
+	/*INFO1*/
+
+#genisys_info1 {
+	width:100%;
+	height:676px;
+	background:url(../images/genisys_info1.jpg) repeat;
+	margin:0 auto;
+}
+
+.info1_genisys {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo1_genisys {
+	width:100%;
+	margin-top:89px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#518f5a;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO2*/
+
+#genisys_info2 {
+	width:100%;
+	height:388px;
+	background:url(../images/genisys_info2.jpg) repeat;
+	margin:0 auto;
+}
+
+.info2_genisys {
+	width:980px;
+	margin:0 auto;
+}
+
+.Iinfo2_genisys {
+	float:left;
+	width:407px;
+	height:388px;
+}
+
+.Tinfo2_genisys1 {
+	width:513px;
+	margin-top:120px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#629155;
+	letter-spacing:1px;
+	float:left;
+}
+
+.Tinfo2_genisys2 {
+	width:513px;
+	margin-top:35px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:15px;
+	color:#574f4f;
+	letter-spacing:1px;
+	float:left;
+	line-height:20pt;
+	text-align:left;
+}
+
+
+	/*INFO3*/
+
+#genisys_info3 {
+	width:100%;
+	height:540px;
+	background:url(../images/genisys_info3.jpg) repeat;
+	margin:0 auto;
+}
+
+.info3_genisys {
+	width:980px;
+	margin:0 auto;
+}
+
+
+	/*INFO4*/
+
+#genisys_info4 {
+	width:100%;
+	height:575px;
+	background:url(../images/genisys_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+.info4_genisys {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo4_genisys {
+	width:100%;
+	margin-top:83px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#785da9;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO5*/
+
+#genisys_info5 {
+	width:100%;
+	height:550px;
+	background:url(../images/genisys_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+.info5_genisys {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo5_genisys {
+	width:100%;
+	margin-top:72px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#d81e41;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO6*/
+
+#genisys_info6 {
+	width:100%;
+	height:833px;
+	background:url(../images/genisys_info6.jpg) repeat;
+	margin:0 auto;
+}
+
+.info6_genisys {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo6_genisys {
+	width:100%;
+	margin-top:95px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#61692c;
+	letter-spacing:1px;
+	float:left;
+}
+
+	
+	/*INFO7*/
+
+#genisys_info7 {
+	width:100%;
+	height:462px;
+	background:url(../images/genisys_info7.jpg) repeat;
+	margin:0 auto;
+}
+
+.info7_genisys {
+	width:980px;
+	margin:0 auto;
+}
+
+#EN_genisys_info {
+	width:100%;
+	height:327px;
+	background:url(../images/elite_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+#EN_genisys_infoo {
+	width:100%;
+	height:380px;
+	background:url(../images/advance_info6.jpg) repeat;
+	margin:0 auto;
+}
+
+/* product6_핸드펌프 */
+
+/* TOP IMG 영역*/
+#HANDPUMP {
+	width:100%;
+	margin:0 auto;
+	height:470px;
+	background:url(../images/handpump_bg.jpg) repeat-x;
+
+}
+
+#handpump_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/* OUTDOOR2_INFO 영역 */
+	
+#HANDPUMP_INFO {
+	width:100%;
+	margin:0 auto;
+}
+
+
+	/*INFO1*/
+
+#handpump_info1 {
+	width:100%;
+	height:745px;
+	background:url(../images/handpump_info1.jpg) repeat;
+	margin:0 auto;
+}
+
+.info1_handpump {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo1_handpump {
+	width:100%;
+	margin-top:90px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#4a5796;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO2*/
+
+#handpump_info2 {
+	width:100%;
+	height:647px;
+	background:url(../images/handpump_info2.jpg) repeat;
+	margin:0 auto;
+}
+
+.info2_handpump {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo2_handpump1 {
+	width:100%;
+	margin-top:97px;
+	height:26px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#31897e;
+	letter-spacing:1px;
+	float:left;
+}
+
+.Tinfo2_handpump2 {
+	width:793px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:16px;
+	color:#565151;
+	letter-spacing:1px;
+	margin:0 auto;
+	line-height:20pt;
+	text-align:left;
+}
+
+
+	/*INFO3*/
+
+#handpump_info3 {
+	width:100%;
+	height:835px;
+	background:url(../images/handpump_info3.jpg) repeat;
+	margin:0 auto;
+}
+
+.info3_handpump {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo3_handpump {
+	width:100%;
+	margin-top:96px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:26px;
+	text-align:center;
+	color:#8c8c05;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO4*/
+
+#handpump_info4 {
+	width:100%;
+	height:412px;
+	background:url(../images/handpump_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+.info4_handpump {
+	width:980px;
+	margin:0 auto;
+}
+
+
+
+
+
+/* product7_비닐롤&백 */
+
+/* TOP IMG 영역*/
+#ROLLBAG {
+	width:100%;
+	margin:0 auto;
+	height:470px;
+	background:url(../images/rollbag_bg.jpg) repeat-x;
+
+}
+
+#rollbag_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/* ROLLBAG_INFO 영역 */
+	
+#ROLLBAG_INFO {
+	width:100%;
+	margin:0 auto;
+}
+
+
+
+	/*INFO1*/
+
+#rollbag_info1 {
+	width:100%;
+	height:727px;
+	background:url(../images/rollbag_info1.jpg) repeat;
+	margin:0 auto;
+}
+
+.info1_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo1_rollbag {
+	width:100%;
+	margin-top:91px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#4a5796;
+	letter-spacing:1px;
+	float:left;
+}
+
+		
+	/*INFO2*/
+
+#rollbag_info2 {
+	width:100%;
+	height:644px;
+	background:url(../images/rollbag_info2.jpg) repeat;
+	margin:0 auto;
+}
+
+.info2_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo2_rollbag1 {
+	width:100%;
+	margin-top:100px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#4e5210;
+	letter-spacing:1px;
+	float:left;
+}
+
+.Tinfo2_rollbag2 {
+	width:790px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:16px;
+	color:#574f4f;
+	letter-spacing:1px;
+	margin:0 auto;
+	line-height:20pt;
+	text-align:left;
+}
+
+
+	/*INFO3*/
+
+#rollbag_info3 {
+	width:100%;
+	height:450px;
+	background:url(../images/rollbag_info3.jpg) repeat;
+	margin:0 auto;
+}
+
+.info3_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+.Iinfo3_rollbag {
+	width:406px;
+	height:100%;
+	float:left;
+}
+
+.Tinfo3_rollbag1 {
+	width:500px;
+	margin-top:95px;
+	height:24px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#0b719c;
+	letter-spacing:1px;
+	float:left;
+	margin-bottom:40px;
+}
+
+.Tinfo3_rollbag2 {
+width:500px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:15px;
+	color:#574f4f;
+	letter-spacing:0.5px;
+	margin:0 auto;
+	line-height:19pt;
+	float:left;
+	height:135px;
+	text-align:left;
+}
+
+.Tinfo3_rollbag3 {
+	width:500px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:12px;
+	color:#808080;
+	letter-spacing:1px;
+	margin:0 auto;
+	line-height:15pt;
+	float:left;
+	text-align:center;
+}
+
+.text_height {
+	height:25px;
+}
+
+	
+	/*INFO4*/
+
+#rollbag_info4 {
+	width:100%;
+	height:366px;
+	background:url(../images/rollbag_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+.info4_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+
+	/*INFO5*/
+
+#rollbag_info5 {
+	width:100%;
+	height:343px;
+	background:url(../images/rollbag_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+.info5_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+.Iinfo5_rollbag {
+	width:406px;
+	height:100%;
+	float:left;
+}
+
+.Tinfo5_rollbag1 {
+	width:500px;
+	margin-top:90px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#333785;
+	letter-spacing:1px;
+	float:left;
+	margin-bottom:38px;
+}
+
+.Tinfo5_rollbag2 {
+	width:500px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:15px;
+	color:#574f4f;
+	letter-spacing:0.5px;
+	margin:0 auto;
+	line-height:19pt;
+	float:left;
+	height:135px;
+	text-align:left;
+}
+
+
+	/*INFO6*/
+
+#rollbag_info6 {
+	width:100%;
+	height:1355px;
+	background:url(../images/rollbag_info6.jpg) repeat;
+	margin:0 auto;
+}
+
+.info6_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo6_rollbag {
+	width:100%;
+	margin-top:100px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#425165;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO7*/
+
+#rollbag_info7 {
+	width:100%;
+	height:833px;
+	background:url(../images/rollbag_info7.jpg) repeat;
+	margin:0 auto;
+}
+
+.info7_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo7_rollbag {
+	width:100%;
+	margin-top:100px;
+	height:25px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:25px;
+	text-align:center;
+	color:#A32F5E;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO8*/
+
+#rollbag_info8 {
+	width:100%;
+	height:819px;
+	background:url(../images/rollbag_info8.jpg) repeat;
+	margin:0 auto;
+}
+
+.info8_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+
+/*Rolls & Bags EN*/
+
+.EN_Tinfo3_rollbag1 {
+	width:500px;
+	margin-top:55px;
+	height:24px;
+	font-family:"나눔바른고딕";
+	font-size:25px;
+	text-align:center;
+	color:#0b719c;
+	letter-spacing:1px;
+	float:left;
+	margin-bottom:40px;
+}
+
+.EN_Tinfo3_rollbag2 {
+	width:500px;
+	font-family:"나눔바른고딕";
+	font-size:16px;
+	color:#574f4f;
+	letter-spacing:0.5px;
+	margin:10px auto 0 auto;
+	line-height:19pt;
+	float:left;
+	height:185px;
+	text-align:left;
+}
+#EN_rollbag_info6 {
+	width:100%;
+	height:1399px;
+	background:url(../images/EN_rollbag_info6.jpg) repeat;
+	margin:0 auto;
+}
+
+.EN_Tinfo6_rollbag {
+	width:100%;
+	margin-top:80px;
+	height:25px;
+	font-family:"나눔바른고딕";
+	font-size:25px;
+	text-align:center;
+	color:#425165;
+	letter-spacing:1px;
+	float:left;
+}
+
+#EN_rollbag_info8 {
+	width:100%;
+	height:600px;
+	background:url(../images/EN_rollbag_info8.jpg) repeat;
+	margin:0 auto;
+}
+
+.EN_info8_rollbag {
+	width:980px;
+	margin:0 auto;
+}
+
+.EN_infobox1{
+	width:50%;
+	height:580px;
+	float:left;
+}
+
+.EN_infobox2{
+	width:50%;
+	height:580px;
+	float:left;
+}
+
+
+
+/* product3_아웃도어1-3 */
+
+/* TOP IMG 영역*/
+#OUTDOOR3 {
+	width:100%;
+	margin:0 auto;
+	height:470px;
+	background:url(../images/outdoor3_bg.jpg) repeat-x;
+
+}
+
+#outdoor3_top {
+	width:980px;
+	margin:0 auto;
+}
+
+
+
+
+
+/* OUTDOOR3_INFO 영역 */
+	
+#OUTDOOR3_INFO {
+	width:100%;
+	margin:0 auto;
+}
+
+
+	/*INFO1*/
+
+#outdoor3_info1 {
+	width:100%;
+	height:705px;
+	background:url(../images/outdoor3_info1.jpg) repeat-x;
+	margin:0 auto;
+}
+
+.info1_outdoor3 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo1_outdoor3 {
+	width:100%;
+	margin-top:89px;
+	height:25px;
+	font-family:"나눔바른고딕";
+	font-size:26px;
+	text-align:center;
+	color:#4A6562;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO2*/
+
+#outdoor3_info2 {
+	width:100%;
+	height:642px;
+	background:url(../images/outdoor3_info2.jpg) repeat;
+	margin:0 auto;
+}
+
+.info2_outdoor3 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo2_outdoor3 {
+	width:100%;
+	margin-top:100px;
+	height:24px;
+	font-family:"나눔바른고딕";
+	font-size:24px;
+	text-align:center;
+	color:#378837;
+	letter-spacing:1px;
+	float:left;
+}
+
+.Textinfo2_outdoor3 {
+	width:830px;
+	height:100px;
+	font-family:"나눔바른고딕";
+	font-size:16px;
+	color:#4e5210;
+	letter-spacing:1px;
+	margin:0 auto;
+	line-height:20pt;
+}
+
+
+	/*INFO3*/
+
+#outdoor3_info3 {
+	width:100%;
+	height:740px;
+	background:url(../images/outdoor2_info3.jpg) repeat;
+	margin:0 auto;
+}
+
+.info3_outdoor3 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo3_outdoor3 {
+	width:100%;
+	margin-top:100px;
+	height:25px;
+	font-family:"나눔바른고딕";
+	font-size:26px;
+	text-align:center;
+	color:#278774;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO4*/
+
+#outdoor3_info4 {
+	width:100%;
+	height:443px;
+	background:url(../images/outdoor2_info4.jpg) repeat;
+	margin:0 auto;
+}
+
+.info4_outdoor3 {
+	width:980px;
+	margin:0 auto;
+}
+
+
+	/*INFO5*/
+
+#outdoor3_info5 {
+	width:100%;
+	height:1327px;
+	background:url(../images/outdoor2_info5.jpg) repeat;
+	margin:0 auto;
+}
+
+.info5_outdoor3 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo5_outdoor3 {
+	width:100%;
+	margin-top:85px;
+	height:24px;
+	font-family:"나눔바른고딕";
+	font-size:25px;
+	text-align:center;
+	color:#425165;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+	/*INFO6*/
+	
+#outdoor3_info6 {
+	width:100%;
+	height:832px;
+	background:url(../images/outdoor2_info6.jpg) repeat;
+	margin:0 auto;
+}
+
+.info6_outdoor3 {
+	width:980px;
+	margin:0 auto;
+}
+
+.Tinfo6_outdoor3 {
+	width:100%;
+	margin-top:95px;
+	height:25px;
+	font-family:"나눔바른고딕";
+	font-size:25px;
+	text-align:center;
+	color:#1d4c7b;
+	letter-spacing:1px;
+	float:left;
+}
+
+
+
+	/*INFO7*/
+
+.info6_advance {
+	width:980px;
+	margin:0 auto;
+}
+
+
+#outdoor3_info7 {
+	width:100%;
+	height:480px;
+	background:url(../images/outdoor2_info7.jpg) repeat;
+	margin:0 auto;
+}
+
+.info7_outdoor3 {
+	width:980px;
+	margin:0 auto;
+}
+
+
+.EN_Tinfo2_genisys1 {
+	width:513px;
+	margin-top:90px;
+	height:25px;
+	font-family:"나눔바른고딕";
+	font-size:25px;
+	text-align:center;
+	color:#629155;
+	letter-spacing:1px;
+	float:left;
+}
+
+.spec_title1{border-right:#ccc 1px solid; border-bottom:#ccc 1px solid; height:64px; width:145px; line-height:32px; font-family:Dotum; font-size:13px; font-weight:bold; float:left; padding-left:12px; color:#676767;}
+
+.sepc_text1{border-bottom:#ccc 1px solid; height:64px; width:220px; line-height:32px; font-family:Dotum; font-size:13px; float:left; padding-left:12px;}

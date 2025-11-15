@@ -1,0 +1,96 @@
+strong {
+	font-weight: bold !important;
+}
+
+.x-panel {
+	border:none !important;	
+}
+
+.him-window {
+    border: solid 1px #828282;
+    background-color: #FFFFFF;
+}
+
+.him-window-header {
+    background-color: #FFFFFF;
+    height: 32px;
+    line-height: 32px;
+    color: #202020;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 12px;
+	font-family:Dotum;
+    border-bottom: solid 1px #C8CDD2;
+}
+
+.him-window-body {
+    font-size: 12px;
+}
+
+.him-window .x-tool-close {
+    background: transparent url(../../skin/default/images/window-close.gif) no-repeat;
+    height: 17px;
+    width: 18px;
+    margin: 8px;
+}
+
+
+.x-panel-ghost {
+    background-color: #FFFFFF !important;
+	border:solid 1px #828282;
+}
+
+
+.x-panel-ghost .x-tool-close {
+    background: none;
+}
+
+.x-panel-ghost .him-window-header {
+    border-bottom: solid 1px #C8CDD2 !important;
+}
+
+.x-panel-ghost ul {
+	border:none !important;
+}
+
+
+.x-panel-ghost div{
+    background-image: none;
+    color: #101013 !important;
+    font-family: "dotum" !important;
+    font-size: 12px !important;
+}
+
+
+#him-loading {
+	 width: 100%;
+    text-align: center;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+
+/**
+ * 에디터
+ */
+.editor .int{
+	border:solid 1px #AAAAAA;
+	padding:3px;
+	font:normal 12px Dotum;
+}
+
+.editor button {
+	font: normal 12px Dotum;
+    border: solid 1px #AAAAAA;
+    padding: 2px 5px;
+    height: 20px;
+	background-image:url(../images/btn_bg.png);
+}
+
+/*
+* 게시판 보기, 2016-11-21 남석우 추가
+*/
+ #module_board em{
+	font-style: italic;
+}
+

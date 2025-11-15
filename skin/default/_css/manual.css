@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+a {
+	color:#595959;
+}
+
+a:hover {
+	color:#222222;
+}
+
+
+
+
+#MANUAL_IMG{
+	width:100%;
+	margin:0 auto;
+	height:286px;
+	background:url(../images/manual_bg.jpg) repeat;
+
+}
+
+#MANUAL {
+	width:980px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+/* MENUAL 영역 시작 */
+
+#manual_board {
+	background:url(../images/manual_info1.jpg) repeat-x;
+	width:100%;
+	margin:0 auto;
+}
+
+#manual_container {
+	width:980px;
+	height:100%;
+	margin:0 auto;
+}
+
+#manual_title {
+	width:180px;
+	padding-top:50px;
+	font-family:Nanum Gothic, sans-serif;
+	font-size:20px;
+	color:#4d7647;
+	text-align:left;
+	margin:0 auto 0 60px;
+}
+
+#manual_area {
+	width:860px;
+	padding-top:30px;
+	padding-bottom:100px;
+	margin:0 auto;
+	height:100%;
+}
+

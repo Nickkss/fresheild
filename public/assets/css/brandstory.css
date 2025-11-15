@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(../../../../fonts.googleapis.com/earlyaccess/nanumgothic.css);
+a {
+	color:#595959;
+}
+
+a:hover {
+	color:#222222;
+}
+
+
+
+
+#TOP_IMG{
+	width:100%;
+	margin:0 auto;
+	height:286px;
+	background:url(../images/brand_top_bg.jpg) repeat;
+
+}
+
+#BRANDSTORY {
+	width:980px;
+	margin:0 auto;
+}
+
+
+
+
+
+
+
+
+/* BRANDSTORY 영역 시작 */
+
+#STORY1 {
+	width:100%;
+	margin:0 auto;
+	background:url(../images/brand_bg.jpg) repeat;
+}
+
+	#info_brand {
+		width:980px;
+		height:976px;
+		margin:0 auto;
+	}
+	
+		#brand_title {
+			margin-top:120px;
+			width:100%;
+			height:25px;
+			font-family:Nanum Gothic, sans-serif;
+			font-size:28px;
+			text-align:center;
+			color:rgba(27,34,41,0.80);
+			letter-spacing:2px;
+			float:left;
+		}
+		
+		#brand_img {
+			margin:0px auto 0px auto;
+			width:100%;
+			float:left;
+		}
+		
+		#brand_text {
+			float:left;
+			width:81%;
+			font-family:Nanum Gothic, sans-serif;
+			color:#5b5b5b;
+			letter-spacing:2px;
+			line-height:28px;
+			margin:0 100px auto 100px;
+			text-align:left;
+		}
+		
+		#brand_text_EN {
+			float:left;
+			width:81%;
+			font-family:Nanum Gothic;
+			color:#5b5b5b;
+			letter-spacing:0.5px;
+			line-height:28px;
+			margin:40px 100px auto 100px;
+			text-align:left;
+		}
+
+
+#STORY2 {
+	width:100%;
+	margin:0 auto;
+	background:url(../images/history_bg.jpg) repeat;
+}
+
+	#info_history {
+	width:980px;
+	margin:0 auto 30px auto;
+	height:1350px;
+}	
+
+		#history_title{
+			margin-top:100px;
+			margin-bottom:86px;
+			width:100%;
+			height:25px;
+			font-family:Nanum Gothic, sans-serif;
+			font-size:28px;
+			text-align:center;
+			color:rgba(27,34,41,0.80);
+			letter-spacing:2px;
+			float:left;
+		}
+		#history_text{
+			width:81%;
+			font-family:Nanum Gothic, sans-serif;
+			color:#5b5b5b;
+			letter-spacing:0.2px;
+			line-height:28px;
+			font-size:16px;
+			margin:0 auto;
+			text-align:left;
+		}
+		#history_img{
+
+		}
+		
+		
+		
+#CERTIFICATION {
+	width:100%;
+	margin:0 auto;
+	background:url(../images/cerification_bg.jpg) repeat;
+}
+
+	#info_certification {
+	width:980px;
+	margin:0 auto 30px auto;
+	height:1748px;
+}	
+
+		#certification_title{
+			margin-top:118px;
+			margin-bottom:69px;
+			width:100%;
+			height:25px;
+			font-family:Nanum Gothic, sans-serif;
+			font-size:27px;
+			text-align:center;
+			color:rgba(27,34,41,0.70);
+			letter-spacing:2px;
+			float:left;
+		}
+	

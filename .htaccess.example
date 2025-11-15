@@ -1,0 +1,101 @@
+# Freshield.com - Apache Configuration Example
+# Rename this file to .htaccess to enable clean URLs
+# This is optional and can be implemented in Phase 2
+
+# Enable Rewrite Engine
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Redirect old HTML files to new PHP structure
+    # Uncomment when ready to go live
+
+    # Korean Homepage
+    # RewriteRule ^index\.html$ /index.php [L,R=301]
+
+    # English Homepage
+    # RewriteRule ^EN_main\.html$ /en_index.php [L,R=301]
+    # RewriteRule ^EN_main-2\.html$ /en_index.php [L,R=301]
+
+    # Product Pages - Korean
+    # RewriteRule ^product/freshield\.html$ /public/pages/product_freshield.php [L,R=301]
+    # RewriteRule ^product/1outdoor\.html$ /public/pages/product_outdoor1.php [L,R=301]
+    # RewriteRule ^product/2outdoor\.html$ /public/pages/product_outdoor2.php [L,R=301]
+    # RewriteRule ^product/3advance\.html$ /public/pages/product_advance.php [L,R=301]
+    # RewriteRule ^product/4elite\.html$ /public/pages/product_elite.php [L,R=301]
+    # RewriteRule ^product/5genisys\.html$ /public/pages/product_genisys.php [L,R=301]
+    # RewriteRule ^product/6handpump\.html$ /public/pages/product_handpump.php [L,R=301]
+    # RewriteRule ^product/7rollbag\.html$ /public/pages/product_rollbag.php [L,R=301]
+
+    # Product Pages - English
+    # RewriteRule ^product/EN_freshield\.html$ /public/pages/product_freshield_en.php [L,R=301]
+    # RewriteRule ^product/EN_1outdoor\.html$ /public/pages/product_outdoor1_en.php [L,R=301]
+    # RewriteRule ^product/EN_2outdoor\.html$ /public/pages/product_outdoor2_en.php [L,R=301]
+    # RewriteRule ^product/EN_3advance\.html$ /public/pages/product_advance_en.php [L,R=301]
+    # RewriteRule ^product/EN_4elite\.html$ /public/pages/product_elite_en.php [L,R=301]
+    # RewriteRule ^product/EN_5genisys\.html$ /public/pages/product_genisys_en.php [L,R=301]
+    # RewriteRule ^product/EN_6handpump\.html$ /public/pages/product_handpump_en.php [L,R=301]
+    # RewriteRule ^product/EN_7rollbag\.html$ /public/pages/product_rollbag_en.php [L,R=301]
+
+    # FAQ and Manual
+    # RewriteRule ^board/FAQ\.html$ /public/pages/faq.php [L,R=301]
+    # RewriteRule ^board/EN_FAQ\.html$ /public/pages/faq_en.php [L,R=301]
+    # RewriteRule ^board/manual\.html$ /public/pages/manual.php [L,R=301]
+    # RewriteRule ^board/EN_manual\.html$ /public/pages/manual_en.php [L,R=301]
+
+    # Other Pages
+    # RewriteRule ^introduction/brandstory\.html$ /public/pages/brandstory.php [L,R=301]
+    # RewriteRule ^introduction/EN_brandstory\.html$ /public/pages/brandstory_en.php [L,R=301]
+    # RewriteRule ^introduction/certification\.html$ /public/pages/certification.php [L,R=301]
+    # RewriteRule ^business/b2b\.html$ /public/pages/business.php [L,R=301]
+    # RewriteRule ^tip/tip\.html$ /public/pages/tip.php [L,R=301]
+    # RewriteRule ^tip/EN_tip\.html$ /public/pages/tip_en.php [L,R=301]
+    # RewriteRule ^sitemap/sitemap\.html$ /public/pages/sitemap.php [L,R=301]
+    # RewriteRule ^sitemap/EN_sitemap\.html$ /public/pages/sitemap_en.php [L,R=301]
+</IfModule>
+
+# Security Settings
+<IfModule mod_headers.c>
+    # Prevent clickjacking
+    Header always set X-Frame-Options "SAMEORIGIN"
+
+    # Prevent MIME sniffing
+    Header always set X-Content-Type-Options "nosniff"
+
+    # Enable XSS protection
+    Header always set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Custom error pages (optional)
+# ErrorDocument 404 /404.php
+# ErrorDocument 500 /500.php
+
+# Cache control for assets
+<IfModule mod_expires.c>
+    ExpiresActive On
+
+    # Images
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/gif "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+
+    # CSS and JavaScript
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType text/javascript "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+
+    # Fonts
+    ExpiresByType font/ttf "access plus 1 year"
+    ExpiresByType font/woff "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+# Compression
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
+</IfModule>
